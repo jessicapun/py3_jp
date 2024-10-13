@@ -1,3 +1,210 @@
-{% extends "base.html" %} {% block content %}
-<h1>index.html</h1>
+{% extends "base.html" %}  {% block content %}
+
+<h1 class="display-3 text-center my-4"> 歡迎來到"小盒子旅遊人生"</h1>
+    <div class="container">
+    <!--justify-->
+    <p class="text-justify">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa alias nihil esse quisquam animi laborum nam eveniet minus laudantium odit natus facilis deserunt quasi debitis atque, pariatur porro ratione dolor. Amet autem iusto ex itaque corporis rem veniam neque officia fugiat omnis dolorum dolorem totam laborum laboriosam saepe voluptatum, officiis, quibusdam quaerat. Iste fugit sunt eum commodi eaque quam ea.
+    </p>
+    <p class="text-warning font-bold h1">Text warning XXX color</p>
+    <br />
+    <!--simply card-->
+    <div class="card">
+        <div class="card-body">
+                <h4 class="card-title">Simply Card Tilte</h4>
+                <h6 class="card-subtitle text-muted">card subtitle</h6>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat sapiente tempora possimus delectus nobis laboriosam officia id iusto facere.
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus fugit delectus facere, incidunt nam esse hic sint sequi aliquam deleniti.
+                </p>
+                <a href="https://youtube.com/shorts/wElxMl1JKBo?si=V97LKeHfLp5P8HFv" class="btn btn-outline-primary">Read More Simply-youtubeLink</a>
+            </div>
+        </div>
+        <br>
+        <hr/>
+    <!--card with image-->
+    <div class="card">
+        <img
+        src="https://picsum.photos/200/300"
+        class="card-img-top"
+        style="height: 300px"
+        />
+        <div class="card-body">
+            <h4 class="card-title text-success">Card Title with image</h4>
+            <h6 class="card-subtitle text-success">card subtitle</h6>
+            <p class="card-text text-success">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fuga ea soluta voluptatibus ut numquam amet deserunt est odio laboriosam?
+            </p>
+        </div>
+    </div>
+    <br>
+    <hr/>
+    <!--card with header-->
+    <div class="card">
+        <div class="card-header">Card Header</div>
+        <div class="card-body">
+                <h4 class="card-title text-muted">Card Tilte</h4>
+                <h6 class="card-subtitle text-muted">card subtitle</h6>
+                    <p class="card-text text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat sapiente tempora possimus delectus nobis laboriosam officia id iusto facere.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary">Read More</a>
+        </div>
+                <div class="card-footer text-muted">2 days ago</div>
+    </div>
+
+        <br>
+    <!--card with navbar-->
+    <div class="card">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tab">
+                <li class="nav-item">
+                <a href="#" class="nav-link active">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+        </div>
+            <div class="card=body">
+                <h4 class="card-title text-danger">Card Tilte with navbar</h4>
+                <h6 class="card-subtitle text-danger">card subtitle</h6>
+                    <p class="card-text text-danger">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat sapiente tempora possimus delectus nobis laboriosam officia id iusto facere.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+                <div class="card-footer text-danger">2 days ago</div>
+        
+    </div>
+
+        <br>
+    <br>
+    <!--card with image overlay-->
+    <div class="card">
+        <img
+            src="https://picsum.photos/200/300"
+            class="card-img-top"
+            style="height: 300px"
+            />    
+        <div class="card-img-overlay">
+            <h4 class="card-title text-primary bg-light">Card Tile with image overlay</h4>
+            <h6 class="card-subtitle text-muted">card subtitle</h6>
+            <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fuga ea soluta voluptatibus ut numquam amet deserunt est odio laboriosam?
+            </p>
+                <a href="#" class="btn btn-outline-primary">Read More More</a>
+            </div>
+        </div>
+        <br/><hr>
+    <!--card with background color-->
+    <div class="card bg-info text-white mb-3">
+        <div class="card-body">
+                <h4 class="card-title">Card Tilte with background</h4>
+                <h6 class="card-subtitle text-danger">card subtitle</h6>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat sapiente tempora possimus delectus nobis laboriosam officia id iusto facere.
+                </p>
+                <a href="#" class="btn btn-outline-danger">Read More</a>
+        </div>
+    </div>
+    <br>
+    <!--card with outline-->
+    <div class="card border-info">
+        <div class="card-body">
+            <h4 class="card-title text-warning">Card with outline</h4>
+            <h6 class="card-subtitle text-warning">card subtitle</h6>
+            <p class="card-text text-warning">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat sapiente tempora possimus delectus nobis laboriosam officia id iusto facere.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+        </div>
+    </div>
+
+    <br><hr>
+    <!--card columns-->
+    <div class="card-columns">
+        <!--card with image-->
+    <div class="card">
+        <img
+        src="https://picsum.photos/200/300"
+        class="card-img-top"
+        style="height: 300px"
+        />
+        <div class="card-body">
+            <h4 class="card-title text-success">Card Title with image</h4>
+            <h6 class="card-subtitle text-success">card subtitle</h6>
+            <p class="card-text text-success">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fuga ea soluta voluptatibus ut numquam amet deserunt est odio laboriosam?
+            </p>
+        </div>
+    </div>
+    <!--simply card-->
+    <div class="card">
+        <div class="card-body">
+                <h4 class="card-title">Simply Card Tilte</h4>
+                <h6 class="card-subtitle text-muted">card subtitle</h6>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat sapiente tempora possimus delectus nobis laboriosam officia id iusto facere.
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus fugit delectus facere, incidunt nam esse hic sint sequi aliquam deleniti.
+                </p>
+                <a href="https://youtube.com/shorts/wElxMl1JKBo?si=V97LKeHfLp5P8HFv" class="btn btn-outline-primary">Read More Simply-youtubeLink</a>
+            </div>
+        </div>
+    <!--basic block-->
+    <div class="card">
+        <div class="card-body text-danger bg-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti minus dolore nostrum expedita, magni quibusdam aperiam sit magnam sed provident distinctio, nisi quos consequatur perspiciatis eaque mollitia temporibus molestias. Voluptas.
+        </div>
+    </div>
+    <!--simply card-->
+    <div class="card">
+        <div class="card-body">
+                <h4 class="card-title">Simply Card Tilte</h4>
+                <h6 class="card-subtitle text-muted">card subtitle</h6>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat sapiente tempora possimus delectus nobis laboriosam officia id iusto facere.
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus fugit delectus facere, incidunt nam esse hic sint sequi aliquam deleniti.
+                </p>
+                <a href="https://youtube.com/shorts/wElxMl1JKBo?si=V97LKeHfLp5P8HFv" class="btn btn-outline-primary">Read More Simply-youtubeLink</a>
+            </div>
+        </div>
+    <!--simply card-->
+    <div class="card">
+        <div class="card-body">
+                <h4 class="card-title">Simply Card Tilte</h4>
+                <h6 class="card-subtitle text-muted">card subtitle</h6>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat sapiente tempora possimus delectus nobis laboriosam officia id iusto facere.
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus fugit delectus facere, incidunt nam esse hic sint sequi aliquam deleniti.
+                </p>
+                <a href="https://youtube.com/shorts/wElxMl1JKBo?si=V97LKeHfLp5P8HFv" class="btn btn-outline-primary">Read More Simply-youtubeLink</a>
+            </div>
+        </div>
+    <!--card with image-->
+    <div class="card">
+        <img
+        src="https://picsum.photos/200/300"
+        class="card-img-top"
+        style="height: 300px"
+        />
+        <div class="card-body">
+            <h4 class="card-title text-success">Card Title with image</h4>
+            <h6 class="card-subtitle text-success">card subtitle</h6>
+            <p class="card-text text-success">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fuga ea soluta voluptatibus ut numquam amet deserunt est odio laboriosam?
+            </p>
+        </div>
+    </div>
+    
+    </div>
+    </div>
+
 {% endblock %}
